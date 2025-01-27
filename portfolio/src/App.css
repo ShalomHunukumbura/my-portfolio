@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+#particles canvas {
+  z-index: -1;
+  height: 100%;
+  width:100%;
+  position: absolute;
+
+}
+
+.head{
+  height: 100vh; /* Full viewport height */
+  background: url('../src/assets/img/header-img.jpg') no-repeat center center fixed; /* Replace with your image path */
+  background-size: cover; /* Make the background cover the entire container */
+  position: relative;
+  opacity: ;
+  
+}
+
+.nav{
+  position: relative; /* Make sure it's positioned above */
+  z-index: 10; /* Ensure it appears above the particles */
+  background: rgba(0, 0, 0, 0.5);
+}
