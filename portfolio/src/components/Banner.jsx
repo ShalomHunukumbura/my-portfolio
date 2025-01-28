@@ -15,8 +15,8 @@ export const Banner = () => {
 
 
     return (
-        <div className="h-screen flex flex-col justify-center items-center">
-            <h1 className="text-white text-4xl font-bold">SHALOM HUNUKUMBURA</h1>
+        <div id="home" className="h-screen flex flex-col  justify-center items-center">
+            <h1 className="text-white text-4xl font-bold text-center">SHALOM HUNUKUMBURA</h1>
             <div className="text-white mt-5 h-8">
                 <AnimatePresence mode="wait">
                     <motion.h3

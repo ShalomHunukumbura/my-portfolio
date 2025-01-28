@@ -9,16 +9,16 @@
 }
 
 .head{
-  height: 100vh; /* Full viewport height */
-  background: url('../src/assets/img/header-img.jpg') no-repeat center center fixed; /* Replace with your image path */
-  background-size: cover; /* Make the background cover the entire container */
+  height: 100vh; 
+  background: url('../src/assets/img/header-img.jpg') no-repeat center center fixed; 
+  background-size: cover; 
   position: relative;
   opacity: ;
   
 }
 
 .nav{
-  position: relative; /* Make sure it's positioned above */
-  z-index: 10; /* Ensure it appears above the particles */
+  position: relative; 
+  z-index: 10; 
   background: rgba(0, 0, 0, 0.5);
 }
