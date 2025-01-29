@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+*.log.*
+logs/
+
+# Dependency directories
+jspm_packages/
+
+# Environment files
+.env
+.env.*
+
+# Build directories
+build/
+dist/
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# NPM package-lock
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Test coverage
+coverage/
+
+# SASS / SCSS folders
+.sass-cache/
+
+# IDE settings
+.idea/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Other files to ignore
+*.swp
+*.swo
