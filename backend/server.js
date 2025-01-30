@@ -6,13 +6,13 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-app.use(cors(
-  {
-    origin: ["https://my-portfolio-frontend-inky.vercel.app"],
-    methods: ["POST", "GET"],
-    credentials: true
-  }
-));
+app.use(cors({
+  origin: "https://my-portfolio-frontend-inky.vercel.app", 
+  methods: ["POST", "GET"],
+  allowedHeaders: ["Content-Type"],
+  credentials: true
+}));
+
 app.use(express.json());
 
 
