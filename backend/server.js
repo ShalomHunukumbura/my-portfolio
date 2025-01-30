@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 app.use(cors(
   {
-    origin: [""],
+    origin: ["https://my-portfolio-frontend-inky.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
   }
