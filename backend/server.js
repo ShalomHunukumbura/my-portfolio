@@ -1,3 +1,4 @@
+/*
 import express from "express";
 import cors from "cors";
 import nodemailer from "nodemailer";
@@ -6,7 +7,13 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: "https://my-portfolio-frontend-inky.vercel.app", 
+  methods: ["POST", "GET"],
+  allowedHeaders: ["Content-Type"],
+  credentials: true
+}));
+
 app.use(express.json());
 
 
@@ -40,3 +47,5 @@ app.post("/send-email", async (req, res) => {
 app.listen(5000, () => {
   console.log("Server running on port 5000");
 });
+
+*/
