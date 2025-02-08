@@ -33,6 +33,13 @@ export const Portfolio = () => {
             github: "https://github.com/ShalomHunukumbura/react-tailwind-app",
             live: "https://github.com/ShalomHunukumbura/react-tailwind-app",
         },
+        {
+            id: 5,
+            title: "Netflix-Clone",
+            image: netflixClone,
+            github: "https://github.com/ShalomHunukumbura/netflix-clone",
+            live: "https://github.com/ShalomHunukumbura/netflix-clone",
+        },
     ];
     
 
