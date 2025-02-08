@@ -2,6 +2,7 @@ import blogApp from "../assets/img/blogApp.png";
 import chatApp from "../assets/img/chatApp.png";
 import ems from "../assets/img/ems.png";
 import landingPage from "../assets/img/landingPage.png";
+import netflixClone from "../assets/img/netflixClone.png"
 
 export const Portfolio = () => {
     const projects = [
